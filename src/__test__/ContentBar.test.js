@@ -29,10 +29,4 @@ describe("integeration testing", () => {
     expect(wrapper.find("a").props().href).toEqual("http://google.com");
   });
 
-  test("should update article state", () => {
-    const wrapper = shallow(<ContentBar />);
-    console.log(wrapper.find("performSearch"));
-
-    const performSearch = wrapper.find("performSearch");
-  });
 });

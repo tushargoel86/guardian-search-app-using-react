@@ -49,3 +49,6 @@ C:.
 ## Execution:
 * npm start
 * react-scripts test --env=jsdom
+
+### You need to sign up [here](https://open-platform.theguardian.com/access/) for API key. Its Free.
+After sign up, put this key in src/constants/Constants.js file
